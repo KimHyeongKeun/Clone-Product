@@ -23,4 +23,7 @@ public class LicenseImageRetrieveController {
 	public List<LicenseImageRetrieveDto> retrieveLicenseImages(@RequestHeader("LB-Role") String role) {
 		return licenseImageRetrieveService.retrieveLicenseImages(role);
 	}
+	
+
+
 }
